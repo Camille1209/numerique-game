@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Roboto Slab;
+    
+}
+
+.flex{
+    display: flex;
+}
+.logo{
+    background-color: #BF1404;
+    width:90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.numerique{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline #BF1404;
+    margin-left: 20px;
+}
+
+.titre{
+    color: white;
+    font-size: 95px;
+    text-align: center;
+    margin: 105px;
+}
+.histoires{
+    margin: 40px;
+    display: flex;
+   display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    
+}
+
+.grid{
+    grid-column: 2 , 3;
+    background-color: #5F0A02;
+    margin-left: 25px;
+}
+.description{
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.nimrod{
+    background-color: #C4C4C4; 
+    display: flex;
+    flex-direction: column;
+}
+.liste{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.nimrod-info{
+    text-align: center;
+}
+.nim{
+    color: white;
+    font-size: 55px;
+    word-spacing: 60px;
+    margin: 70px;
+}
+
+.texte{
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    margin: 20px;
+}
+
+.noir{
+    color: black;
+}
+
+.noir:hover{
+    color: #BF1404;
+    transition-duration: 0.5s;
+}
+
+.blanc{
+    color: white;
+}
+
+.blanc:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.des{
+    margin: 15px; 
+    font-size: 24px;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+.bout{
+    color: white;
+    text-decoration: none;
+}
+
+.bout:hover{
+    color:#BF1404 ;
+    transition-duration: 1s;
+}
+.boutond{
+    display: none;
+}
+
+@media screen and (max-width: 860px) {
+    .titre{
+        font-size: 55px;
+        width: 860px;
+    }
+    .histoires{
+        display: block;
+    }
+    .nimrod{
+        width: 860px;
+    }
+    .grid{
+        width: 860px;
+    }
+    .bouton{
+        display: none;
+    }
+    .boutond{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 1800px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .titre{
+        font-size: 55px;
+        width: 360px;
+    }
+    .histoires{
+        display: block;
+        margin: 120px;
+    }
+    .nimrod{
+        width: 360px;
+    }
+    .grid{
+        width: 360px;
+    }
+    .liste{
+        font-size: 20px;
+    }
+    .texte{
+        font-size: 20px;
+    }
+    .bouton{
+        display: none;
+    }
+    .boutond{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 365px;
+        margin: 180px;
+    }
+}

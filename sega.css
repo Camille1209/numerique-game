@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Roboto Slab;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    background-color: #BF1404;
+    width:90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.numerique{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline #BF1404;
+    margin-left: 20px;
+}
+
+.histoires{
+    margin: 40px;
+    display: flex;
+   display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    
+}
+
+
+.grid{
+    grid-column: 1 , 2;
+    background-color: #5F0A02;
+    margin-right: 25px;
+}
+.description{
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.space{
+    background-color: #C4C4C4; 
+    display: flex;
+    flex-direction: column;
+}
+.liste{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.spacewar-info{
+    text-align: center;
+}
+.nim{
+    color: white;
+    font-size: 55px;
+    word-spacing: 60px;
+    margin: 70px;
+}
+
+.texte{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.noir{
+    color: black;
+}
+
+.noir:hover{
+    color: #BF1404;
+    transition-duration: 0.5s;
+}
+
+.blanc{
+    color: white;
+}
+
+.blanc:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.war{
+    width: 990px;
+    height: 550px;
+}
+
+.des{
+    margin: 35px; 
+    font-size: 24px;
+}
+
+/* button */
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+.bout{
+    color: white;
+    text-decoration: none;
+}
+
+.bout:hover{
+    color:#BF1404 ;
+    transition-duration: 1s;
+}

@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black!important;
+}
+/*Navigation*/
+.navigation{
+    background-color: #BF1404;
+    display: flex;
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 2;
+    font-family: 'Vast Shadow', cursive;
+    margin-bottom:  -20px; 
+}
+
+.navigue{
+    align-self: flex-end;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    list-style-type: none;
+}
+
+.jenavigue{
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    list-style-type: none;
+    text-align: center;
+}
+
+.manette{
+    width: 90px;
+}
+
+.numerique{
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+.lien-a{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.lien-b{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.lien-c{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.lien-d{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.lien-e{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.lien-f{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.manette{
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li a:hover{
+    color: black;
+}
+
+.lejeu{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 65px;
+    text-decoration: underline;
+    word-spacing: 20px;
+    margin-top: 55px;
+}
+
+/*histoire*/
+p{
+    color: white;
+}
+.lhistoire{
+    display: flex;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.7) url(img/video-game-controllers.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    padding: 22px  50px;
+    font-size: 34px;
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   height: 100vh;
+   align-items: center;
+}
+ /*Carousel*/
+
+
+
+ /*Footer*/
+.pied{
+    background-color: #BF1404; 
+    top: 0; 
+    width: 100%;
+    z-index: 2;
+    font-family: Roboto Slab;
+}
+.Savoir{
+    color: #000;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.jeu{
+    align-self: flex-end;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    list-style-type: none;
+    
+}
+.gauche{
+    display: none;
+}
+
+    
+
+hr{
+    color: black;
+}
+
+.jeuxvideo{
+    
+   font-style: normal;
+    font-weight: normal;
+   font-size: 24px;
+  line-height: 32px;
+   text-decoration: none;
+   color: white;
+   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   padding: 20px;
+   text-align: center;
+   margin-bottom: 1.5em;
+}
+
+
+.jeuvideo{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 1.5em;
+    margin-left: 2.5em ;
+    margin-right: 2.5em ;
+
+}
+.jeuxvideos{
+    
+   font-style: normal;
+    font-weight: normal;
+   font-size: 24px;
+  line-height: 32px;
+   text-decoration: none;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+   padding: 20px;
+   text-align: center;
+   margin-bottom: 1.5em;
+}
+
+
+.jeuvideo:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+.jeuxvideo:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+.jeuxvideos:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+h5{
+    font-family: Roboto Slab;
+    font-size: 29px;
+    color: white;
+}
+
+.nom{
+    color: black;
+    font-size: 15px;
+}
+
+
+.cv{
+    font-size: 20px;
+    color: white;
+}
+
+.cv:hover{
+    color: black;
+    transition-duration: 1s;
+}
+
+label{
+    margin: 0 40px 0 0;
+    color: white;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: left;
+}
+
+.jenavigue a{
+
+}
+
+#toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 860px){
+
+    html , body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .jenavigue{
+        display: none;
+    }
+
+
+
+    .histoire{
+        width: 360px;
+    }
+
+    .carrousel{
+        display: none;
+    }
+
+    .histoire{
+        width: 100%;
+    }
+
+    .lejeu{
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -20px;
+    }
+
+    .lhistoire{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+     
+    .pied{
+        display: none;
+      width: 100%;
+       
+    }
+    .jeuvideo1{
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        font-size: 13px;
+        
+    }
+    td{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .jeuxvideos1{
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .jeuxvideo1{
+        text-decoration: none;
+        color: white;
+        margin: 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .gauche{
+        width: 100%;
+        background-color: #BF1404;
+    }
+    .Savoirs{
+        color: black;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .pos-f-t{
+        background: color #bf1404!important; ;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin :20px;
+        padding-left: 20px;
+    }
+    .gauche{
+        display: flex;
+        justify-content: center;
+    }
+
+    .numerique{
+        color: white;
+    }
+    .lien-a{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+    }
+    .lien-b{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+    }
+    .lien-c{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+    }
+    .lien-d{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+    }
+    .lien-e{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+    }
+    .lien-f{                
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+    }
+
+    .cv1{
+        color: white;
+    }
+
+    .jeu{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    tr{
+        display: grid;
+    }
+
+    
+
+    
+    
+
+
+    
+      
+    
+
+
+
+      
+      

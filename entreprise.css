@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto Slab;
+    color: white;
+}
+
+video{
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -20;
+}
+
+.logo{
+    background-color: #BF1404;
+    width:90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.numerique{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline #BF1404;
+    margin-left: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.info{
+    text-align: center;
+    margin: 20px;
+}
+.infos{
+    text-align: center;
+    margin: 20px;
+}
+
+.entreprise{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    width: 970px;
+    height: 400px;
+}
+
+.colonne{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 20px;
+}
+
+hr{
+    background-color: black;
+}
+.activision{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 20px;
+}
+
+.apple{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 20px;
+}
+.netase{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 20px;
+}
+.electronic{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 20px;  
+}
+
+.autre{
+    background-color:#5f0a02d5 ;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.phot{
+    margin: 20px;
+    width: 920px;
+    height: 350px;
+}
+
+.phots{
+    margin: 20px;
+    width: 820px;
+    height: 550px;
+}
+
+.te{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sony{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 860px){
+    body{
+        background-color: black;
+    }
+
+    .entreprise{
+        width: 1200px;
+        margin: 0px;
+    }
+
+    video{
+        display: none;
+    }
+    .epic{
+        display: grid;
+    }
+    .electronic{
+        display: block;
+        width: 1200px;
+    }
+
+    .nintendo{
+        display: grid;
+    }
+    .colonne{
+        display: block;
+
+    }
+    .infos{
+        width: 1200px;
+        background-color:#5f0a02d5 ;
+    }
+
+    .sony{
+        display: grid;
+        width: 1250px;
+    }
+    .microsoft{
+        display: grid;
+        width: 1250px;
+    }
+    .photo{
+        width: 1200px;
+    }
+    .phot{
+        width: 1200px;
+    }
+    .phots{
+        width: 1200px;
+    }
+    .apple{
+        display: block;
+        width: 1200px;
+    }
+    .activision{
+        display: block;
+        width: 1200px;
+    }
+    .google{
+        display: grid;
+    }
+    .netase{
+        display: block;
+        width: 1200px;
+    }
+
+}
